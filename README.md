@@ -1,4 +1,4 @@
 # ASIM-XHAKMA
 
-cd asim21
+cd asim11
 
