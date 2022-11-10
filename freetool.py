@@ -197,7 +197,7 @@ twf = []
 
 def clear():
     os.system('clear')
-    print(logo)
+    banner()
 from time import localtime as lt
 from os import system as cmd
 ltx = int(lt()[3])
@@ -273,7 +273,7 @@ def follow(ses,coki):
 def main():
     clear()
     os.getuid
-    os.system("clear");print(logo)
+    os.system("clear");banner()
     clear()
     print (' \t           \033[1;37m[ \033[1;32mMAIN MENU \033[1;37m]')
     print('\033[1;97m====================================================') 
@@ -299,7 +299,7 @@ def main():
 
 def passx():
     os.system("clear")
-    print(logo)
+    banner()
     print(f"\033[1;97mTODAY DATE \033[1;91m: \033[1;92m{ha}/{bu}/{ta} \033[1;93m=== \033[1;97mTIME \033[1;92m 🕛  "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
     print('\033[1;97m====================================================') 
     print('              \x1b[97m\033[37;41m[ PASSWORD MENU ]\033[0;m ')
@@ -330,7 +330,7 @@ def passx():
 
 def pass1():
     os.system("clear")
-    print(logo)
+    banner()
     clear()
     print(f"\033[1;97mTODAY DATE \033[1;91m: \033[1;92m{ha}/{bu}/{ta} \033[1;93m=== \033[1;97mTIME \033[1;92m 🕛  "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
     print('\033[1;97m====================================================') 
@@ -346,7 +346,7 @@ def pass1():
     print('\033[1;97m====================================================') 
     code = input('\033[1;37m[\033[1;31m!\033[1;37m]\033[1;32m PUT SIM NETWORK CODE \033[1;37m: \033[1;36m')
     os.system("clear")
-    print(logo)
+    banner()
     print(f"\033[1;97mTODAY DATE \033[1;91m: \033[1;92m{ha}/{bu}/{ta} \033[1;93m=== \033[1;97mTIME \033[1;92m 🕛  "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
     print('\033[1;97m====================================================') 
     print(f"          \x1b[97m\033[37;41m[ I D S    L I M I T   M E N U ]\033[0;m")
@@ -380,7 +380,7 @@ def pass1():
 
 def pass2():
     os.system("clear")
-    print(logo)
+    banner()
     clear()
     print(f"\033[1;97mTODAY DATE \033[1;91m: \033[1;92m{ha}/{bu}/{ta} \033[1;93m=== \033[1;97mTIME \033[1;92m 🕛  "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
     print('\033[1;97m====================================================') 
@@ -396,7 +396,7 @@ def pass2():
     print('\033[1;97m====================================================') 
     code = input('\033[1;37m[\033[1;31m!\033[1;37m]\033[1;32m PUT SIM NETWORK CODE \033[1;37m: \033[1;36m')
     os.system("clear")
-    print(logo)
+    banner()
     print(f"\033[1;97mTODAY DATE \033[1;91m: \033[1;92m{ha}/{bu}/{ta} \033[1;93m=== \033[1;97mTIME \033[1;92m 🕛  "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
     print('\033[1;97m====================================================') 
     print(f"          \x1b[97m\033[37;41m[ I D S    L I M I T   M E N U ]\033[0;m")
@@ -430,7 +430,7 @@ def pass2():
     
 def pass3():
     os.system("clear")
-    print(logo)
+    banner()
     clear()
     print(f"\033[1;97mTODAY DATE \033[1;91m: \033[1;92m{ha}/{bu}/{ta} \033[1;93m=== \033[1;97mTIME \033[1;92m 🕛  "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
     print('\033[1;97m====================================================') 
@@ -446,7 +446,7 @@ def pass3():
     print('\033[1;97m====================================================') 
     code = input('\033[1;37m[\033[1;31m!\033[1;37m]\033[1;32m PUT SIM NETWORK CODE \033[1;37m: \033[1;36m')
     os.system("clear")
-    print(logo)
+    banner()
     print(f"\033[1;97mTODAY DATE \033[1;91m: \033[1;92m{ha}/{bu}/{ta} \033[1;93m=== \033[1;97mTIME \033[1;92m 🕛  "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
     print('\033[1;97m====================================================') 
     print(f"          \x1b[97m\033[37;41m[ I D S    L I M I T   M E N U ]\033[0;m")
@@ -480,7 +480,7 @@ def pass3():
 
 def pass4():
     os.system("clear")
-    print(logo)
+    banner()
     clear()
     print(f"\033[1;97mTODAY DATE \033[1;91m: \033[1;92m{ha}/{bu}/{ta} \033[1;93m=== \033[1;97mTIME \033[1;92m 🕛  "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
     print('\033[1;97m====================================================') 
@@ -496,7 +496,7 @@ def pass4():
     print('\033[1;97m====================================================') 
     code = input('\033[1;37m[\033[1;31m!\033[1;37m]\033[1;32m PUT SIM NETWORK CODE \033[1;37m: \033[1;36m')
     os.system("clear")
-    print(logo)
+    banner()
     print(f"\033[1;97mTODAY DATE \033[1;91m: \033[1;92m{ha}/{bu}/{ta} \033[1;93m=== \033[1;97mTIME \033[1;92m 🕛  "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
     print('\033[1;97m====================================================') 
     print(f"          \x1b[97m\033[37;41m[ I D S    L I M I T   M E N U ]\033[0;m")
@@ -530,7 +530,7 @@ def pass4():
 
 def pass5():
     os.system("clear")
-    print(logo)
+    banner()
     clear()
     print(f"\033[1;97mTODAY DATE \033[1;91m: \033[1;92m{ha}/{bu}/{ta} \033[1;93m=== \033[1;97mTIME \033[1;92m 🕛  "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
     print('\033[1;97m====================================================') 
@@ -546,7 +546,7 @@ def pass5():
     print('\033[1;97m====================================================') 
     code = input('\033[1;37m[\033[1;31m!\033[1;37m]\033[1;32m PUT SIM NETWORK CODE \033[1;37m: \033[1;36m')
     os.system("clear")
-    print(logo)
+    banner()
     print(f"\033[1;97mTODAY DATE \033[1;91m: \033[1;92m{ha}/{bu}/{ta} \033[1;93m=== \033[1;97mTIME \033[1;92m 🕛  "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
     print('\033[1;97m====================================================') 
     print(f"          \x1b[97m\033[37;41m[ I D S    L I M I T   M E N U ]\033[0;m")
@@ -580,7 +580,7 @@ def pass5():
 
 def pass6():
     os.system("clear")
-    print(logo)
+    banner()
     clear()
     print(f"\033[1;97mTODAY DATE \033[1;91m: \033[1;92m{ha}/{bu}/{ta} \033[1;93m=== \033[1;97mTIME \033[1;92m 🕛  "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
     print('\033[1;97m====================================================') 
@@ -596,7 +596,7 @@ def pass6():
     print('\033[1;97m====================================================') 
     code = input('\033[1;37m[\033[1;31m!\033[1;37m]\033[1;32m PUT SIM NETWORK CODE \033[1;37m: \033[1;36m')
     os.system("clear")
-    print(logo)
+    banner()
     print(f"\033[1;97mTODAY DATE \033[1;91m: \033[1;92m{ha}/{bu}/{ta} \033[1;93m=== \033[1;97mTIME \033[1;92m 🕛  "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
     print('\033[1;97m====================================================') 
     print(f"          \x1b[97m\033[37;41m[ I D S    L I M I T   M E N U ]\033[0;m")
